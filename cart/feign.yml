@@ -1,0 +1,17 @@
+server:
+  port: 8030
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: feign
+  thymeleaf:
+    prefix: classpath:/static/
+    suffix: .html
+
+
+feign:
+  hystrix:
+    enabled: true
