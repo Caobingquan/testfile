@@ -4,8 +4,8 @@ spring:
   application:
     name: user
   datasource:
-    name: orderingsystem
-    url: jdbc:mysql://localhost:3306/orderingsystem?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+    name: cart
+    url: jdbc:mysql://localhost:3306/cart?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
