@@ -4,7 +4,6 @@ spring:
   application:
     name: cart
   datasource:
-    name: cart
     url: jdbc:mysql://localhost:3306/cart?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
     username: root
     password: root
