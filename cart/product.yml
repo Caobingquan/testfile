@@ -15,4 +15,4 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 mybatis:
   mapper-locations: classpath:mapping/*.xml
-  type-aliases-package: com.pojo
+  type-aliases-package: com.product.pojo
