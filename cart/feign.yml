@@ -12,13 +12,3 @@ spring:
     suffix: .html
   mvc:
     static-path-pattern: /static/**
-
-feign:
-  hystrix:
-    enabled: true
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 15000
