@@ -8,7 +8,7 @@ spring:
   application:
     name: feign
   thymeleaf:
-    prefix: classpath:/static/
+    prefix: classpath:/templates/
     suffix: .html
   mvc:
     static-path-pattern: /static/**
